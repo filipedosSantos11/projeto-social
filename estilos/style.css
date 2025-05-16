@@ -46,3 +46,34 @@ iframe#tela {
 
     /* essas são as medidas do iframe para ficar certinho dentro do telefone */
 }
+
+section#redes-sociais {
+    text-align: right;
+
+    /* alinhou os botões a direita */
+}
+
+section#redes-sociais > a > img {
+    width: 50px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    box-sizing: border-box;
+    border-radius: 50%;
+    box-sizing: border-box;
+
+    /* box-sizing: border-box;
+    para a borda fazer parte da caixa, assim não fica zoado */
+
+    /* border-radius: 50%; */
+    /* para transformar as imagens em botões redondos */
+}
+
+section#redes-sociais > a > img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.61);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: transform .3s;
+
+    /* transform: translate(-3px, -3px); */
+    /* para uma leve movimentação dos botões */
+}
